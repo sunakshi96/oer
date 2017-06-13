@@ -1,1 +1,7 @@
-# oer
+Open Educational Resources Repository Platform
+
+Open Educational Resources(OER) are freely accessible, openly licensed documents and media that are useful for teaching, learning, and assessing as well as for research purposes. OER could be in the form of any file format (images, videos, text documents, rich text documents, audio files, etc.), and as of now there is no universally accepted standard(s) for OER creation. The author creating an OER should specify an appropriate copyleft license. Some of the well known open content licenses available are Creative Commons Attribution (CC BY), Creative Commons ShareAlike (CC BY-SA), Public Domain Dedication (CC0), GNU Free Documentation License (GFDL), Free Art License (FAL), etc. Digital libraries have metadata for easy retrieval, and management of information resource. Metadata can describe resources at any level of composition and aggregation. It can describe a collection, a single resource, or a component of a larger resource (for example, a chapter in a book). Standards for metadata in digital libraries include Dublin Core, METS, MODS, DDI, DOI, URN, PREMIS schema, EML, and OAI-PMH.
+<br><br>
+A system to be built should be able to use any metadata standards for defining OERs. One such system is DSpace. Additionally, any module in drupal should be able to store/retrieve metadata in/from DSpace.
+<br><br>
+Initially, for the project, Drupal was supposed to be used as the Front-end and DSpace as the Back-end, both then being connected through REST-API. However, further study revealed that DSpace provides better performance, more efficiency and highly interactive interface in Fron-end development as well. Therefore, now the entire platform (both Front-end and Back-end) is being build on DSpace. 
